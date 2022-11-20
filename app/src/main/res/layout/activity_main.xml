@@ -23,12 +23,12 @@
         android:background="@android:color/lighter_gray"
         android:ems="10"
         android:hint="Escribe aquí todo el texto"
-        android:gravity="start|top"
         android:inputType="textMultiLine"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonGuardar"/>
+        app:layout_constraintTop_toBottomOf="@+id/botonGuardar"
+        tools:ignore="RtlCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
